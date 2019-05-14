@@ -356,6 +356,7 @@ void CFileErasingDlg::FindFile(CString folder,CStringArray &extension, int findC
 	
 	hFind = FindFirstFile(strSeek, &win32fd);
 
+
 	if (hFind == INVALID_HANDLE_VALUE) {
 		AfxMessageBox(_T("hFind==INVALID_HANDLE_VALUE"));
 		return;
