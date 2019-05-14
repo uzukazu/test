@@ -348,6 +348,7 @@ void CFileErasingDlg::FindFile(CString folder,CStringArray &extension, int findC
 {
 	WIN32_FIND_DATA win32fd;
 
+
 	// TODO: ここに実装コードを追加します.
 	HANDLE hFind;
 	CString strSeek;
