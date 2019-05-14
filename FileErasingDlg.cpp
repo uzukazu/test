@@ -344,7 +344,6 @@ void CFileErasingDlg::OnLvnItemchangedList3(NMHDR *pNMHDR, LRESULT *pResult)
 	*pResult = 0;
 }
 
-
 void CFileErasingDlg::FindFile(CString folder,CStringArray &extension, int findCount)
 {
 	WIN32_FIND_DATA win32fd;
